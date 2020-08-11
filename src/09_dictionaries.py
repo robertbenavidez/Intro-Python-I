@@ -57,4 +57,3 @@ print(waypoints)
 
 for i in waypoints:
     print(i.values())
-    
