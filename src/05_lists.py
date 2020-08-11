@@ -35,4 +35,3 @@ print(len(x))
 
 for value in x:
     print(value * 1000)
-    
