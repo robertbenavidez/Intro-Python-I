@@ -11,9 +11,17 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 # YOUR CODE HERE
 
+foo_file = open('/Users/m/Documents/cs26/Intro-Python-I/src/foo.txt')
+print(foo_file.read())
+foo_file.close()
+
 # Open up a file called "bar.txt" (which doesn't exist yet) for
 # writing. Write three lines of arbitrary content to that file,
 # then close the file. Open up "bar.txt" and inspect it to make
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
+
+bar_file = open('/Users/m/Documents/cspt11/Intro-Python-I/src/bar.txt', 'w')
+bar_file.write("test line one\ntest line two\ntest line three")
+bar_file.close()
